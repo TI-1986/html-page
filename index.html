@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dio HTML</title>
+  </head>
+  <header>
+    <nav id="indice">
+      <div class="menu">
+        <h1>
+          <strong> TIPOS DE TAGS HTML! </strong>
+        </h1>
+
+        <hr />
+        <ol>
+          <li><a href="#title">Tags de Cabeçalho</a></li>
+          <li><a href="#list">Tags de Listas</a></li>
+          <li><a href="#format">Tags de Formatação no Texto</a></li>
+          <li><a href="#link">Tags de Ligação</a></li>
+          <li><a href="#new">Tags Pouco Usadas</a></li>
+        </ol>
+        <p>
+          As tags HTML são essenciais para estruturar o conteúdo de uma página
+          web. Elas definem diferentes tipos de elementos, como cabeçalhos,
+          parágrafos, listas, imagens, links e formulários. Lembre-se de que o
+          uso correto das tags HTML não apenas estrutura o conteúdo, mas também
+          melhora a experiência do usuário e a visibilidade nos mecanismos de
+          busca.
+        </p>
+        <p>
+          HTML <i>(Linguagem de Marcação de Hipertexto)</i> é o código que você
+          usa para estruturar uma página web e seu conteúdo. Com o HTML, você
+          pode criar seu próprio site.
+        </p>
+        <p>
+          Na
+          <a
+            href="https://www.w3schools.com/html/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >W3Schools</a
+          >, você encontrará referências completas sobre elementos HTML,
+          atributos, eventos, cores, conjuntos de caracteres, codificação de
+          URLs, suporte de navegadores e muito mais.
+        </p>
+      </div>
+    </nav>
+    <hr />
+  </header>
+  <body>
+    <h2 id="title">Tags de <strong>Cabeçalho</strong></h2>
+
+    <p>
+      As tags HTML que usamos para criar títulos em páginas web são:
+      <code>h1, h2, h3, h4, h5 e h6</code> . O significado dessas tags é o
+      mesmo, que é definir títulos, mas o nível de importância é diferente para
+      cada uma, onde <code>h1</code> tem o nível mais alto e <code>h6</code> o
+      mais baixo.
+    </p>
+    <p>
+      A montagem HTML dos títulos afeta diretamente o SEO da página web e
+      acessibilidade. Por exemplo, o Google utiliza a tag <code>h1</code> para
+      detectar o título principal.
+    </p>
+    <p>
+      Se você tem um site e se preocupa com SEO, acessibilidade e experiência do
+      usuário, a criação de bons títulos é fundamental, siga as dicas a seguir:
+    </p>
+    <ul>
+      <li>
+        Use apenas uma tag <code>h1</code> por página, mesmo sendo permitido
+        mais de um.
+      </li>
+      <li>
+        Não pule os níveis de títulos. Use <code>h1</code> depois
+        <code>h2</code>
+      </li>
+      <li>Não use tags de título para palavras sem essa importância</li>
+      <li>
+        Em tags <code>section</code> utilize título <code>h2</code> ou menor
+      </li>
+    </ul>
+    <button type="button"><a href="#indice">Voltar</a></button>
+
+    <hr />
+    <h2 id="list">Tags de Listas</h2>
+    <h3>Existem três tipos principais de listas em HTML:</h3>
+    <ol>
+      <li>
+        Listas Ordenadas (<code>OL</code> - Ordered Lists):
+        <ul>
+          <li>
+            As listas ordenadas são utilizadas para mostrar uma sequência lógica
+            de itens, como uma lista numerada.
+          </li>
+          <li>
+            Os itens são listados de forma ordenada, seja por número, letra ou
+            algarismos romanos.
+          </li>
+          <li>
+            Para criar uma lista ordenada, utilize a tag <code>ol</code>, e os
+            itens da lista ficam dentro da tag <code>li</code>.
+          </li>
+          <li>
+            Também é possível ordenar por letras maiúsculas usando
+            <code>ol type="a"</code>.
+          </li>
+        </ul>
+      </li>
+      <li>
+        Listas Não Ordenadas (<code>UL</code> - Unordered Lists):
+        <ul>
+          <li>
+            As listas não ordenadas são usadas para apresentar itens sem uma
+            ordem específica, como uma lista com marcadores.
+          </li>
+          <li>
+            Iniciam com a tag <code>ul</code> e os itens ficam dentro da tag
+            <code>li</code>.
+          </li>
+        </ul>
+      </li>
+      <li>
+        Listas de Definição (<code>DL </code>- Description Lists):
+        <ul>
+          <li>
+            As listas de definição são usadas para definir termos e seus
+            significados.
+          </li>
+          <li>
+            São representadas pelas tags <code>dl, dt</code> (termo) e
+            <code>dd</code> (descrição).
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <dd>
+      <small>
+        Em resumo, as listas desempenham um papel importante na estruturação de
+        conteúdo em páginas HTML, seja para listar itens ou definir termos e
+        suas explicações.
+      </small>
+    </dd>
+    <button type="button"><a href="#indice">Voltar</a></button>
+    <hr />
+    <h2 id="format">Tags de Formatação de Texto</h2>
+    <p>
+      Vamos explorar algumas tags de formatação avançada em HTML que podem ser
+      úteis para marcar recursos semânticos mais específicos:
+    </p>
+
+    <ol>
+      <li>
+        <code>p</code>: A tag <code>p</code> é usada para criar parágrafos de
+        texto. <br />
+        Ela envolve um bloco de texto e adiciona espaçamento antes e depois do
+        conteúdo
+      </li>
+      <li>
+        <code>Mark</code>
+        <mark> (Destaque de Texto)</mark>
+        <ul>
+          <li>
+            O elemento <code>mark</code> representa um trecho de destaque em um
+            texto, como uma sequência de palavras marcada como referência ou
+            relevante em um contexto específico.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <code>Strong</code>
+        <strong> (Ênfase Forte)</strong>
+        <ul>
+          <li>
+            O elemento <code>Strong</code> é usado para denotar trechos de
+            importância especial, como palavras-chave, títulos ou informações
+            críticas.
+          </li>
+          <li>Ele geralmente é exibido em negrito.</li>
+        </ul>
+      </li>
+      <li>
+        <code>Blockquote</code>
+        <blockquote
+          cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote"
+        >
+          <p>(Citação de Bloco)</p>
+        </blockquote>
+        <ul>
+          <li>
+            O elemento <code>Blockquote</code> indica que o texto incluído é uma
+            longa citação.
+          </li>
+          <li>Normalmente, é processado visualmente com recuo.</li>
+          <li>
+            A URL da fonte da citação pode ser especificada usando o atributo
+            <code>Cite</code>, enquanto uma representação textual da fonte pode
+            ser dada usando o elemento <code>Cite</code>.
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <button type="button"><a href="#indice">Voltar</a></button>
+    <hr />
+    <h2 id="link">Tags de Ligação</h2>
+    <ol>
+      Essas tags são essenciais para criar conexões entre diferentes partes de
+      uma página web. Aqui estão algumas das principais:
+      <li>
+        <code>a</code> (Âncora ou Link):
+        <ul>
+          <li>
+            A tag <code>a</code> é usada para criar links entre páginas ou
+            recursos.
+          </li>
+          <li>
+            Ela pode apontar para URLs, endereços de e-mail, arquivos locais e
+            âncoras dentro da mesma página.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <code>link</code> (Ligação Externa):
+        <ul>
+          <li>
+            A tag <code>link</code> é usada no <code>head</code> para vincular
+            recursos externos, como folhas de estilo CSS.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <code>area</code> (Área de Imagem):
+        <ul>
+          <li>
+            A tag <code>area</code> é usada em conjunto com a tag
+            <code>map</code> para criar áreas clicáveis em imagens.
+          </li>
+          <li>Útil para mapas de imagem ou gráficos interativos.</li>
+        </ul>
+      </li>
+      <li>
+        <code>iframe</code> (Quadro Incorporado):
+        <ul>
+          <li>
+            A tag <code>iframe</code> permite incorporar conteúdo de outras
+            páginas dentro da sua.
+          </li>
+          <li>Útil para incorporar vídeos, mapas ou widgets.</li>
+        </ul>
+      </li>
+      <li>
+        <code>base</code>(Base URL):
+        <ul>
+          <li>
+            A tag <code>base</code> define a URL base para todos os links
+            relativos em uma página.
+          </li>
+          <li>Especifica o diretório ou domínio padrão para os links.</li>
+        </ul>
+      </li>
+    </ol>
+    <button type="button"><a href="#indice">Voltar</a></button>
+    <h2 id="new">Tags Pouco Usadas</h2>
+    <ol>
+      <li>
+        <code>font</code>: A tag <code>font</code> era usada antigamente para
+        definir o tamanho, a cor e a fonte do texto. No entanto, ela está
+        obsoleta e não é mais recomendada para uso. Em vez disso, é preferível
+        usar CSS para estilizar o texto. Por exemplo, em CSS, você pode definir
+        a cor do texto usando <code>color: red;</code>.
+      </li>
+      <li>
+        <code>del</code>: A tag <code>del</code> é usada para indicar texto que
+        foi removido ou riscado. Ela é frequentemente usada em documentos
+        revisados ou em sistemas de controle de versão.
+      </li>
+      <li>
+        <code>abbr</code> : A tag <code>abbr</code> representa uma abreviação e
+        opcionalmente fornece uma descrição completa para ela. O atributo title
+        deve conter a descrição completa da abreviação.
+        <p>Exemplo:</p>
+        <small>
+          <p>Eu sou do estado do <abbr title="Espirito Santo">ES</abbr>.</p>
+        </small>
+      </li>
+    </ol>
+    <button type="button"><a href="#indice">Voltar</a></button>
+  </body>
+</html>
